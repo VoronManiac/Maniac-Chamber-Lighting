@@ -16,9 +16,20 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230319_191023708.jpg?raw=true)
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/Composite.jpg?raw=true)
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/Composite1.jpg?raw=true)
 
 ## BOM
+| Qty        | Item           | Comment |
+|:------------- |:------------- |:----- |
+| 2m           | 24V COB strip; 50mm segments; adhesive backed | https://www.amazon.com/gp/product/B0B9SFMZ1L  |
+| 1 roll  | Aluminumized Mylar Tape 1/2" (12.7mm) |  https://www.amazon.com/gp/product/B07TYKFS8K  |
+| 10ft/3m      | Red 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
+| 10ft/3m      | Black 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
+| 4 | JST 2.0 4-Pin Male Connector plug with Wire + Female Connector plug(have not cable) |   https://www.amazon.com/gp/product/B01DUC1S7S |
+| - | solder | |
+| - | CA glue & accelerator | |
+
+
 ## Printer Tuning
 ## Assembly
 ### LED Bar
