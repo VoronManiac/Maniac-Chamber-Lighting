@@ -1,4 +1,5 @@
 # Maniac-Chamber-Lighting
+
 This project uses 24V high efficiency white COB LED strip lighting to provide interior lighting on a Voron 2.4 350/300/250.
 
 One of the goals of this project is to simplify installation of lighting with snap in mounting brackets and pre-assembled wiring and junction boxes, and eliminate the use of screws. The commonly available adhesive backed 24V COB strips are cut to size in increments of 50mm and attached to each printed LEDBar.  
@@ -11,6 +12,12 @@ Printed zero clearance snap in 2020 slot covers make for clean installation and 
 A printed TPU Z belt cover is included that of course snaps into the 2020, making the wire run from the vertical 2020 section to the electronics bay non-exposed.  A complete set of TPU parts to seal and support the base panel will be published later.
 
 The design was prototyped on a Voron 350, but STL and STEP files are included for 300 and 250 printers.  The LEDBars must be printed at a 45 degree angle to fit on the build plate.  Double check that you can fit the LEDBar on your build plate before committing to the project and ordering parts.
+
+
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230319_191023708.jpg?raw=true)
+
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/Composite.jpg?raw=true)
+
 ## BOM
 ## Printer Tuning
 ## Assembly
