@@ -6,3 +6,5 @@ Print (2) copies each of CornerJunctionCapLarge and CornerJunctionCapSmall.  The
 Print (3) copies of LEDClip15 for mounting the front LEDBarxxx.  These orient the front LEDBar to tilt down slightly so the COB is not visible when viewed  through printer top panel  when viewed from the sides or rear.  These parts snap into the 2020 but can be removed by twisting sideways.
 
 Print (9) coopies of LEDClip45 for mounting the side and rear LEDBarxxx.   These orient the LEDBars to point staight down.  These parts snap into the 2020 but can be removed by twisting sideways.
+
+Print (4) copies LEDEnd, one for each LEDBarxxx.  The LEDEnd retainer ring slips over the 2mm JST connector and holds the connector inplace during and after soldering it to the COB Strip.  It should take a reasonable amount of force to press it on.  Note the small bump on the inside of the ring faces outwards relative to the LEDBar.  The bump engages last as the ring is pressed on.
