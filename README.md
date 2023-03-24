@@ -67,10 +67,19 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 
 * Remove the center two pins of the female JST connector. Tin the remaining two pins. 
 * Place the LEDBar into a small tool vise if available to help hold things in place
-* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.
+* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.  Make sure the un-tinned end of the COB strip does not extend past the end of the LEDBar.
+* Remove the middle wires on the male JST connector using an exacto to pry up the retaining pins on the plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_044316531.jpg?raw=true)
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_04431653.jpg?raw=true)
+* Remove the LEDEnd retaining ring, and male & female connectors.
+* Apply the Aluminized Mylar tape strips and trim back from the edge of the LEDBar.  Pic shows one trimmed and one yet to be trimmmed.
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_054944640.jpg?raw=true)
 
-* Remove the center two  
+
+* Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts a fraction of milimeter away from the printed edge and won't quite touch the female connector when it is installed.  The LEDBar is 2mm longer than the strip, so when it is installed the un-tinned end of the COB strip should not hang off the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
+
+
+
+
 ### Junction Boxes
 ### Installation
