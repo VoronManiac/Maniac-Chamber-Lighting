@@ -26,8 +26,8 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 | 10ft/3m      | Red 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
 | 10ft/3m      | Black 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
 | 4 | JST 2.0 4-Pin Male Connector plug with Wire + Female Connector plug(have not cable) |   https://www.amazon.com/gp/product/B01DUC1S7S |
-| 1 |  Ferrule Crimping Tool Kit, Preciva AWG23-7 with 1200PCS Wire Terminals Crimping Connectors Wire End Ferrules  | https://www.amazon.com/gp/product/B073TZ5BBG |
-| - | solder | |
+| 2 |  gray 20 awg crip terminals      **_Ferrule Crimping Tool Kit, Preciva AWG23-7 with 1200PCS Wire Terminals Crimping Connectors Wire End Ferrules_**  | https://www.amazon.com/gp/product/B073TZ5BBG |
+| - | solder, rosin flux | |
 | - | CA glue & accelerator | |
 
 
@@ -87,7 +87,7 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
 
 * A pair of red/black wires runs from each junction box into the MCU board in electronics bay.  A "Y" splitter joins the front and back LED feeds for final connection to the MCU.  The required length of the wires will be dependent on the machine size, electronics bay wire routing path and location of the MCU. For a typical Voron 350, 1.7m and 1.1m wire lengths seem to work.  When figuring the required length, add in and extra 10% that will be taken up when the wire are twisted together.
-* Revmove the two center terminals from each connector by prying the retaiing pins on the connnector to free the wires.  Re-insert wires if desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
+* Remove the two center terminals and wires from each connector by prying up the retaining tabs on the connnector with an exacto to free the wires.  Re-insert wires as desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
 * Cut the wires of two male JST connectors to 112mm and strip 8mm of insulation off each end. 
 * Remove 8mm of insulaton from the ends of the PTFE wires.
 * Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires as well.
