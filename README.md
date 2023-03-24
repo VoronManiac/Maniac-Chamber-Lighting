@@ -33,7 +33,7 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 ## Printer Tuning
 Print STL/Tools/Test.stl.  
 
-Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If every looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDEnd.stl.  Otherwise follow the tuning suggestions below
+Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If everything looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDEnd.stl.  Otherwise follow the tuning suggestions below
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TestPrint.jpg?raw=true)
 
