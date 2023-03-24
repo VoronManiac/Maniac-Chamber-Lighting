@@ -51,7 +51,9 @@ If the two 5mm width measurements differ, and assuming Pressure Advance is diale
 
 In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the tempeature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line try decreasing the peak flow rate/print speed to minimize the effect. 
 
+### Elephant Foot
 
+After getting the flow rate dialed in, remove any remaining elephant foot by decresing the flow rate of the first layer or re-adjust the z-offset to increae the first layer height.
 
 
 
