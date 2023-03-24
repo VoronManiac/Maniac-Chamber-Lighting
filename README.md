@@ -31,6 +31,30 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 
 
 ## Printer Tuning
+Print STL/Tools/Test.stl.  
+
+Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If every looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDEnd.stl.  Otherwise follow the tuning suggestions below
+
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TestPrint.jpg?raw=true)
+
+### Test print width and length adjustment
+
+The width of the 5mm section of the test print is primarily influenced by the slicer's filament extrusion multiplier.  To dial it in, do two test prints with different extrusion multipliers and linearly interpolate between the two to determine the correct setting.  
+
+The 100mm length is primarliy influenced by the filament shrinkage factor.  Again, do two prints and linearly interpolate.
+
+There is some interaction between the two settings so it may require some iteration.
+
+### Test print varying 5mm thickness
+
+If the two 5mm width measurements differ, and assuming Pressure Advance is dialed in, chances are the difference is caused by temperature flow variation.
+
+In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the tempeature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line try decreasing the peak flow rate/print speed to minimize the effect. 
+
+
+
+
+
 ## Assembly
 ### LED Bar
 ### Junction Boxes
