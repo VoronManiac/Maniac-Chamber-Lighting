@@ -77,9 +77,10 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 
 
 * Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts a fraction of milimeter away from the printed edge and won't quite touch the female connector when it is installed.  The LEDBar is 2mm longer than the strip, so when it is installed the un-tinned end of the COB strip should not hang off the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
-
-
-
+* Temporarily re-install the female JST connector and LEDEnd retaining ring.  Solder the JST connector to the COB stip. Connect to 24V supply and test COB.
+* Remove the LEDEnd retaining ring and trial fit the the LEDBarEndCapA, making sure it sits flush on the end of the LEDBar.  CA in place.
+* Trial fit the the LEDBarEndCap on untinned end of the LEDBar, making sure it sits flush.  CA in place.
+* Install LEDEnd pressing it flush againstLEDBarEndCapA.
 
 ### Junction Boxes
 ### Installation
