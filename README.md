@@ -67,10 +67,10 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 
 * Remove the center two pins of the female JST connector. Tin the remaining two pins. 
 * Place the LEDBar into a small tool vise if available to help hold things in place
-* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. Dry fit the COB strip under the connector and note the alignment of the tinned pads and the connector pins.
+* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_044316531.jpg?raw=true)
 
-
+* Remove the center two  
 ### Junction Boxes
 ### Installation
