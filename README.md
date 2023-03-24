@@ -93,6 +93,15 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires as well.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_170353732.jpg?raw=true)
 
+* Insert crimp into junction box and route red wires as shown below
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_173040693.jpg?raw=true)
+
+* Insert crimp into junction box and route black wires as shown below
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_173913668a.jpg?raw=true)
+
+* Install large and small snap in covers.  With junction box is a vise, place a piece of tape on the far end of the red/black wires and insert into drill and create a twisted pair.  To help keep wires from untwisting, pass the twisted pair around a round object like a pencil along the length of the wires.  This helps wires take a new set.
+
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_175535253.jpg?raw=true)
 
 
 ### Installation
