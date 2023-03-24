@@ -59,5 +59,18 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 
 ## Assembly
 ### LED Bar
+
+* Precisely cut a section of the COB strip to match the length of the LEDBar using a sharp razor.  The LEDBar400 uses a strip with 8 50mm sections. 
+* Identify the end of the strip with the correct +/- orientation and scrape/abraid any oxide from the contacts using fine sand paper or razor until clean copper is exposed.
+* Tin the contacts and wipe away any excess solder with a paper towel or solder wick.
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TinnedCOB.jpg?raw=true)
+
+* Remove the center two pins of the female JST connector. Tin the remaining two pins. 
+* Place the LEDBar into a small tool vise if available to help hold things in place
+* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. Dry fit the COB strip under the connector and note the alignment of the tinned pads and the connector pins.
+
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_044316531.jpg?raw=true)
+
+
 ### Junction Boxes
 ### Installation
