@@ -117,6 +117,7 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 
 * Bend TPU Z cover open and slide Z belts into slots.  Press far side into 2020 channel.
 * Position the twisted pair so it is clear of the remaining TPU tab and gently press the it into the 2020.  Use a small screw driver to to guide the wires and keep them from pinching. between the tab and the 2020.
+* An allen wrench provides a convenient lever for removing the TPU tabs from the 2020.  The TPU can also be removed by wedging a small screw driver between the 2020 and the TPU.
 * ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_055824980.jpg?raw=true)
 * ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060104321.jpg?raw=true)
 * ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060431409.jpg?raw=true)
