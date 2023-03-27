@@ -108,7 +108,7 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 ### Installation
 * Snap a junction box into the top frame.
 * The slot covers are split into two sections to ease installation.  Lower the Gantry and install the top slot cover.
-* Starting at one end, ently push the slot cover into place being careful not to pinch the wires.  Applying a slight tension to the wires keeps them inside the slot cover.  Once the slot cover is fully pressed into place, the slot cover will side in the 2020 channel with minimimal effort.  The wires should free loose when jiggled.
+* Starting at one end, gently push the slot cover into place being careful not to pinch the wires.  Applying a slight tension to the wires keeps them inside the slot cover.  Once the slot cover is fully pressed into place, the slot cover will side in the 2020 channel with minimimal effort.  The wires should free loose when jiggled.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_053830500.jpg?raw=true)
 
 * Raise the gantry. Slide the top slot cover upwards as needed and install the lower slot cover.
