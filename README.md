@@ -29,7 +29,6 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 | 4 | JST 2.0 4-Pin Male Connector plug with Wire + Female Connector plug(have not cable) |   https://www.amazon.com/gp/product/B01DUC1S7S |
 | 2 |  gray 20 awg crip terminals      **_Ferrule Crimping Tool Kit, Preciva AWG23-7 with 1200PCS Wire Terminals Crimping Connectors Wire End Ferrules_**  | https://www.amazon.com/gp/product/B073TZ5BBG |
 | - | solder, rosin flux | |
-| - | CA glue & accelerator | |
 
 
 ## Printer Tuning
@@ -105,6 +104,7 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_175535253.jpg?raw=true)
 
 
+
 ### Installation
 * Snap a junction box into the top frame.
 * The slot covers are split into two sections to ease installation.  Lower the Gantry and install the top slot cover.
@@ -122,6 +122,12 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060104321.jpg?raw=true)
 * ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060431409.jpg?raw=true)
 
-* 
+* Snap diffusers and 45 degree mounting clips on the side LEDBar's to test fit.  The mounting clip ends easily unsnap by pressing them over the lip of the LEDBar.  
+
+* ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_151505688.jpg?raw=true)
+
+*Plug the JST connector into the LEDBar.  For initial installation of the LEDClip15, they can be inserted into the 2020 one by one and slid into position, or the entire LEDBar can be snapped in as a unit.
+
+
 
 
