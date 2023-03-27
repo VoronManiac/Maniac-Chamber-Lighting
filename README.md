@@ -2,16 +2,17 @@
 
 This project uses 24V high efficiency white COB LED strip lighting to provide interior lighting on a Voron 2.4 350/300/250.
 
-One of the goals of this project is to simplify installation of lighting with snap in mounting brackets and pre-assembled wiring and junction boxes, and eliminate the use of screws. The commonly available adhesive backed 24V COB strips are cut to size in increments of 50mm and attached to each printed LEDBar.  
+One of the goals of this project is to simplify installation of lighting with snap in mounting brackets and pre-assembled wiring and junction boxes, and eliminate the use of screws. The commonly available adhesive backed 24V COB strips are cut to size and attached to each printed LEDBar.  Length of strips will be a multiple of 50mm.
 
 Aluminized Mylar tape attached to the LEDBar forms a corner reflector to improve light output. A combination of light baffles/diffusers on the side strips along with installation angle of the front and rear LEDBars prevents glare as the COB elements themselves are not directly visible when viewed from the front of the Voron.  The lights are connected to a PWM MCU output that can be connected to a Klipper input button or Mainsail dimmer slider.  
 
 The LEDBars are designed to just fit along the top frame rails and include a 2mm JST connectors for easy installation and removal while servicing the printer.  Printed brackets "permanently" snap into the 2020 and the LEDBars in tern snap into these brackets making for quick removal of the LEDBars as needed.
 
-Printed zero clearance snap in 2020 slot covers make for clean installation and wire management. 
-A printed TPU Z belt cover is included that of course snaps into the 2020, making the wire run from the vertical 2020 section to the electronics bay non-exposed.  A complete set of TPU parts to seal and support the base panel will be published later.
+Printed zero clearance slot covers snap into the vertical 2020 extrusions and make for clean installation and wire management.
 
-The design was prototyped on a Voron 350, but STL and STEP files are included for 300 and 250 printers.  The LEDBars must be printed at a 45 degree angle to fit on the build plate.  Double check that you can fit the LEDBar on your build plate before committing to the project and ordering parts.
+A printed TPU Z belt cover snaps into the 2020, making the wire run from the vertical 2020 section to the electronics bay non-exposed.  A complete set of TPU parts to seal and support the base panel will be published later.
+
+The design was prototyped on a Voron 350, but STL and STEP files are included for 300 and 250 printers.  The LEDBars must be printed at a 45 degree angle to fit on the build plate.  Double check that you can fit the LEDBar on your build plate before committing to the project and ordering parts.  Set the infill angle to 0 degrees for the LEDBars.
 
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230319_191023708.jpg?raw=true)
@@ -62,35 +63,33 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 ### LED Bar
 
 * Precisely cut a section of the COB strip to match the length of the LEDBar using a sharp razor.  The LEDBar400 uses a strip with 8 50mm sections. 
-* Identify the end of the strip with the correct +/- orientation and scrape/abraid any oxide from the contacts using fine sand paper or razor until clean copper is exposed.
+* Identify the end of the strip with the correct +/- orientation and scrape/abraid any oxide or coatings from the contacts using fine sand paper or razor until clean copper is exposed.
 * Tin the contacts and wipe away any excess solder with a paper towel or solder wick.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TinnedCOB.jpg?raw=true)
 
-* Remove the center two pins of the female JST connector. Tin the remaining two pins. 
-* Place the LEDBar into a small tool vise if available to help hold things in place
-* Test fit the connector into the LEDBar. Test fit the LEDEnd retaining ring over the connector by pressing it on a couple of mm. **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.  Make sure the un-tinned end of the COB strip does not extend past the end of the LEDBar.
-* Remove the middle wires on the male JST connector using an exacto to pry up the retaining pins on the plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
+* Remove the center two pins of the female JST connector. They'll slip out of the PCB side of the connector with enough force. Tin the remaining two pins. 
+* Place the LEDBar into a small tool vise if available to help hold things in place.  This helps immensely.
+* Test fit the JST connector into the LEDBar. Test fit the LEDRetainer by placing it over the connector and pressing it into place (it will need to be removed so don't force it). **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.  Check that that there is enough room for the un-tinned end of the COB strip to lay flat.
+* Remove the middle wires on the male JST connector using an exacto to pry up the retaining tabs on the JST plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_04431653.jpg?raw=true)
-* Remove the LEDEnd retaining ring, and male & female connectors.
-* Apply the Aluminized Mylar tape strips and trim back from the edge of the LEDBar.  Pic shows one trimmed and one yet to be trimmmed.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_054944640.jpg?raw=true)
+* Remove the LEDRetainer, and male & female connectors.
+* Apply  Aluminized Mylar tape strips.  Position the tape at the edge of the LEDBar.  Starting a few inches in, begin pressing the tape in place, working to the end of the LEDBar.  Crease the tape into the corner with a toothpick and trip off the excess.
 
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192127167.jpg?raw=true)
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192234882.jpg?raw=true)
 
-* Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts a fraction of milimeter away from the printed edge and won't quite touch the female connector when it is installed.  The LEDBar is 2mm longer than the strip, so when it is installed the un-tinned end of the COB strip should not hang off the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
-* Temporarily re-install the female JST connector and LEDEnd retaining ring.  Solder the JST connector to the COB stip. Connect to 24V supply and test COB.
-* Remove the LEDEnd retaining ring and trial fit the the LEDBarEndCapA, making sure it sits flush on the end of the LEDBar.  CA in place.
-* Trial fit the the LEDBarEndCap on untinned end of the LEDBar, making sure it sits flush.  CA in place.
-* Install LEDEnd pressing it flush againstLEDBarEndCapA.
+* Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts exactly next to the raised bar on the print.  The LEDBar is ~2mm longer than the strip, so when the COB is installed, the un-tinned end of the COB strip should not hit the far end of the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
+* Re-install the female JST connector and LEDRetainer.  Solder the JST connector to the COB stip. Connect to 24V supply and test COB.
 
 ### Junction Boxes
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
 
-* A pair of red/black wires runs from each junction box into the MCU board in electronics bay.  A "Y" splitter joins the front and back LED feeds for final connection to the MCU.  The required length of the wires will be dependent on the machine size, electronics bay wire routing path and location of the MCU. For a typical Voron 350, 1.7m and 1.1m wire lengths seem to work.  When figuring the required length, add in and extra 10% that will be taken up when the wire are twisted together.
-* Remove the two center terminals and wires from each connector by prying up the retaining tabs on the connnector with an exacto to free the wires.  Re-insert wires as desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
+* A pair of red/black wires runs from each junction box into the MCU board in electronics bay.  A "Y" splitter joins the front and back LED feeds for final connection to the MCU.  The required length of the wires will be dependent on the machine size, electronics bay wire routing path and location of the MCU. For a typical Voron 350, 1.7m and 1.1m wire lengths seem to work.  When figuring the required length, add in and extra 10% that will be taken up when the wires are twisted together.
+* Be sure the two center terminals and wires from each connector have been removed by prying up the retaining tabs on the connnector with an exacto to free the wires.  Re-insert wires as desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
 * Cut the wires of two male JST connectors to 112mm and strip 8mm of insulation off each end. 
 * Remove 8mm of insulaton from the ends of the PTFE wires.
-* Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires as well.
+* Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires in a second crip connector.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_170353732.jpg?raw=true)
 
 * Insert crimp into junction box and route red wires as shown below
@@ -105,3 +104,5 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 
 
 ### Installation
+
+
