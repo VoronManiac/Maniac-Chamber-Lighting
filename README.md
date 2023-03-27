@@ -82,6 +82,8 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 * Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts exactly next to the raised bar on the print.  The LEDBar is ~2mm longer than the strip, so when the COB is installed, the un-tinned end of the COB strip should not hit the far end of the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
 * Re-install the female JST connector and LEDRetainer.  Solder the JST connector to the COB stip. Connect to 24V supply and test COB.
 
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_052607121a.jpg?raw=true)
+
 ### Junction Boxes
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
 
