@@ -1,4 +1,4 @@
-# Maniac-Chamber-Lighting
+# Maniac-Chamber-Lighting #
 
 This project uses 24V high efficiency white COB LED strip lighting to provide interior lighting on a Voron 2.4 350/300/250.
 
@@ -19,7 +19,7 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/Composite1.jpg?raw=true)
 
-## BOM
+## BOM ##
 | Qty        | Item           | Comment |
 |:------------- |:------------- |:----- |
 | 2m           | 24V COB strip; 50mm segments; adhesive backed | https://www.amazon.com/gp/product/B0B9SFMZ1L  |
@@ -31,8 +31,8 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 | - | solder, rosin flux | |
 
 
-## Printer Tuning
-Print STL/Tools/Test.stl.  
+## Printer Tuning ##
+Print STL/Tools/Test.stl.
 
 Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If everything looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDEnd.stl.  Otherwise follow the tuning suggestions below
 
@@ -46,7 +46,7 @@ The 100mm length is primarily influenced by the filament shrinkage factor.  Agai
 
 There is some interaction between the two settings so it may require some iteration.
 
-### Test print varying 5mm thickness
+### Test print varying 5mm thickness ###
 
 If the two 5mm width measurements differ, and assuming Pressure Advance is dialed in, chances are the difference is caused by temperature flow variation.
 
@@ -56,8 +56,57 @@ In the same way Pressure Advance has to build up pressure at the beginning of a 
 
 After getting the flow rate dialed in, remove any remaining elephant foot by decreasing the flow rate of the first layer or re-adjust the z-offset to increase the first layer height.
 
+## Print Parts ##
+Print after calibration:
 
+### Common Printed Parts ###
+```
+[alt] CornerJunctionBox.stl        -left rear & right front
+[x2]  CornerJunctionBoxMirror.stl  -left front & right rear
+[x4] CornerJunctionCapLarge.stl
+[x4] CornerJunctionCapSmall.stl
+```
+```
+[x3] LEDClip15.stl  -front
+[x9] LEDClip45.stl  -side & rear
+[x4] LEDRetainer.stl
+```
+```
+[4x-ABS] Z Belt Cover Retainer.stl
+*** Test print first TPU part and trial fit before printing others ***
+[x1-TPU] DeckCornerLeftFront.stl
+[x1-TPU] DeckCornerLeftRear.stl
+[x1-TPU] DeckCornerRightFront.stl
+[x1-TPU] DeckCornerRightRear.stl
+```
 
+### Voron 350 ###
+```
+[x2] LEDBar350.stl        -set infill angle to 0 deg
+[x2] LEDBar400.stl        -set infill angle to 0 deg
+[x4] LEDdiffuser350.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x4] LEDdiffuser400.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x2] SlotCoverVert200.stl
+[x2] SlotCoverVert287.stl 
+```
+### Voron 300 ###
+```
+[x2] LEDBar300.stl        -set infill angle to 0 deg
+[x2] LEDBar350.stl        -set infill angle to 0 deg
+[x4] LEDdiffuser300.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x4] LEDdiffuser350.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x2] SlotCoverVert200.stl
+[x2] SlotCoverVert237.stl 
+```
+### Voron 250 ###
+```
+[x2] LEDBar250.stl        -set infill angle to 0 deg
+[x2] LEDBar300.stl        -set infill angle to 0 deg
+[x4] LEDdiffuser250.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x4] LEDdiffuser300.stl   -check for gaps in 1st layer; might need to reduce infill line width 140%=>120%
+[x2] SlotCoverVert200.stl
+[x2] SlotCoverVert187.stl 
+```
 ## Assembly
 ### LED Bar
 
