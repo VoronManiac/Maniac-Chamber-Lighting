@@ -140,6 +140,11 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 
 * Plug the JST connector into the LEDBar.  For initial installation of the LEDClip15, they can be inserted into the 2020 one by one and slid into position, or the entire LEDBar can be snapped in as a unit.  Not necessary, but the diffusers can be locked into place so it doesn't slide with a drop of CA.
 
+* Installed LEDBar
+![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230328_043655822.jpg?raw=true)
+
+
+
 
 
 
