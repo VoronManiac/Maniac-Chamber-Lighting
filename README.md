@@ -34,11 +34,11 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 ## Printer Tuning ##
 Print STL/Tools/Test.stl.
 
-Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If everything looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDEnd.stl.  Otherwise follow the tuning suggestions below
+Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If everything looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDRetainer.stl.  Otherwise follow the tuning suggestions below
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TestPrint.jpg?raw=true)
 
-### Test print width and length adjustment
+### Test print width and length adjustment ##
 
 The width of the 5mm section of the test print is primarily influenced by the slicer's filament extrusion multiplier.  To dial it in, do two test prints with different extrusion multipliers and linearly interpolate between the two to determine the correct setting.  
 
@@ -50,19 +50,19 @@ There is some interaction between the two settings so it may require some iterat
 
 If the two 5mm width measurements differ, and assuming Pressure Advance is dialed in, chances are the difference is caused by temperature flow variation.
 
-In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the temperature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line don't use the 30-second Benchy settings - try decreasing the peak flow rate/print speed to minimize the effect. 
+(Theory)- In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the temperature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line don't use the 30-second Benchy settings - try decreasing the peak flow rate/print speed to minimize the effect. 
 
 ### Elephant Foot
 
 After getting the flow rate dialed in, remove any remaining elephant foot by decreasing the flow rate of the first layer or re-adjust the z-offset to increase the first layer height.
 
-## Print Parts ##
+## Printed Parts ##
 Print after calibration:
 
 ### Common Printed Parts ###
 ```
 [alt] CornerJunctionBox.stl        -left rear & right front
-[x2]  CornerJunctionBoxMirror.stl  -left front & right rear
+[x2]  CornerJunctionBoxMirror.stl  -left front & right rear recommended
 [x4] CornerJunctionCapLarge.stl
 [x4] CornerJunctionCapSmall.stl
 ```
@@ -73,7 +73,7 @@ Print after calibration:
 ```
 ```
 [4x-ABS] Z Belt Cover Retainer.stl
-*** Test print first TPU part and trial fit before printing others ***
+*** Test print first TPU part and trial fit before printing others Shore 95 TPU ***
 [x1-TPU] DeckCornerLeftFront.stl
 [x1-TPU] DeckCornerLeftRear.stl
 [x1-TPU] DeckCornerRightFront.stl
@@ -107,8 +107,8 @@ Print after calibration:
 [x2] SlotCoverVert200.stl
 [x2] SlotCoverVert187.stl 
 ```
-## Assembly
-### LED Bar
+## Assembly ##
+### LED Bar ###
 
 * Precisely cut a section of the COB strip to match the length of the LEDBar using a sharp razor.  The LEDBar400 uses a strip with 8 50mm sections. 
 * Identify the end of the strip with the correct +/- orientation and scrape/abraid any oxide or coatings from the contacts using fine sand paper or razor until clean copper is exposed.
@@ -132,7 +132,7 @@ Print after calibration:
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_052607121a.jpg?raw=true)
 
-### Junction Boxes
+### Junction Boxes ###
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
 
 * A pair of red/black wires runs from each junction box into the MCU board in electronics bay.  A "Y" splitter joins the front and back LED feeds for final connection to the MCU.  The required length of the wires will be dependent on the machine size, electronics bay wire routing path and location of the MCU. For a typical Voron 350, 1.7m and 1.1m wire lengths seem to work.  When figuring the required length, add in and extra 10% that will be taken up when the wires are twisted together.
@@ -154,7 +154,7 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 
 
 
-### Installation
+## Installation ##
 * Snap a junction box into the top frame.
 * The slot covers are split into two sections to ease installation.  Lower the Gantry and install the top slot cover.
 * Starting at one end, gently push the slot cover into place being careful not to pinch the wires.  Applying a slight tension to the wires keeps them inside the slot cover.  Once the slot cover is fully pressed into place, the slot cover will side in the 2020 channel with minimimal effort.  The wires should free loose when jiggled.
@@ -192,8 +192,10 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * Installed LEDBar
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230328_043655822.jpg?raw=true)
 
-
-
-
-
-
+## TO DO ##
+- update pics
+- add on/off/dim switch & macros
+- publish Lower Panel Deck TPU seals & retainers
+- publish TPU Side/Top/Rear Panel & Front door seals, Retainers & hinges
+- publish Maniac-Aire HEPA/Charcoal filters
+- publish Maniac-Drybox
