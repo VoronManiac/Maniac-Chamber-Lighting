@@ -120,6 +120,8 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * An allen wrench provides a convenient lever for removing the TPU tabs from the 2020.  The TPU can also be removed by wedging a small screw driver between the 2020 and the TPU.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_055824980.jpg?raw=true)
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060104321.jpg?raw=true)
+
+* Snap the Z Belt Cover Retainer(s) in place to hold the Acrylic deck panel against each Z belt cover.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060431409.jpg?raw=true)
 
 * Snap diffusers and 45 degree mounting clips on the side LEDBar's to test fit.  The mounting clip ends easily unsnap by pressing them over the lip of the LEDBar.  
