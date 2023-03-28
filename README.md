@@ -1,6 +1,6 @@
 # Maniac-Chamber-Lighting #
 
-This project uses 24V high efficiency white COB LED strip lighting to provide interior lighting on a Voron 2.4 350/300/250.
+This project uses 24V high efficiency white COB LED strip lighting to provide low glare interior lighting on a Voron 2.4 350/300/250.
 
 One of the goals of this project is to simplify installation of lighting with snap in mounting brackets and pre-assembled wiring and junction boxes, and eliminate the use of screws. The commonly available adhesive backed 24V COB strips are cut to size and attached to each printed LEDBar.  Length of strips will be a multiple of 50mm.
 
