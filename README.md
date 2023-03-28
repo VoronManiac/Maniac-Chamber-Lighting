@@ -15,9 +15,9 @@ A printed TPU Z belt cover snaps into the 2020, making the wire run from the ver
 The design was prototyped on a Voron 350, but STL and STEP files are included for 300 and 250 printers.  The LEDBars must be printed at a 45 degree angle to fit on the build plate.  Double check that you can fit the LEDBar on your build plate before committing to the project and ordering parts.  Set the infill angle to 0 degrees for the LEDBars.
 
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230319_191023708.jpg?raw=true)
+![](./Image/PXL_20230319_191023708.jpg?raw=true)
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/Composite1.jpg?raw=true)
+![](./Image/Composite1.jpg?raw=true)
 
 ## BOM ##
 | Qty        | Item           | Comment |
@@ -36,7 +36,7 @@ Print STL/Tools/Test.stl.
 
 Measure the width of the 5mm arms at the two points indicated and verify they are within 0.05mm.  Measure the length of the arms to be 100mm to be within 0.10mm.  Check for no elephant foot.  If everything looks good, print the STL/Common/LEDBar50.stl.   Insert a Female JST plug and test fit the STL/Common/LEDRetainer.stl.  Otherwise follow the tuning suggestions below
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TestPrint.jpg?raw=true)
+![](./Image/TestPrint.jpg?raw=true)
 
 ### Test print width and length adjustment ##
 
@@ -113,24 +113,24 @@ Print after calibration:
 * Precisely cut a section of the COB strip to match the length of the LEDBar using a sharp razor.  The LEDBar400 uses a strip with 8 50mm sections. 
 * Identify the end of the strip with the correct +/- orientation and scrape/abraid any oxide or coatings from the contacts using fine sand paper or razor until clean copper is exposed.
 * Tin the contacts and wipe away any excess solder with a paper towel or solder wick.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/TinnedCOB.jpg?raw=true)
+![](./Image/TinnedCOB.jpg?raw=true)
 
 * Remove the center two pins of the female JST connector. They'll slip out of the PCB side of the connector with enough force. Tin the remaining two pins. 
 * Place the LEDBar into a small tool vise if available to help hold things in place.  This helps immensely.
 * Test fit the JST connector into the LEDBar. Test fit the LEDRetainer by placing it over the connector and pressing it into place (it will need to be removed so don't force it). **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.  Check that that there is enough room for the un-tinned end of the COB strip to lay flat.
 * Remove the middle wires on the male JST connector using an Exacto to pry up the retaining tabs on the JST plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_04431653.jpg?raw=true)
+![]./Image/PXL_20230324_04431653.jpg?raw=true)
 * Remove the LEDRetainer, and male & female connectors.
 * Apply  Aluminized Mylar tape strips.  Position the tape at the edge of the LEDBar.  Starting a few inches in, begin pressing the tape in place, working to the end of the LEDBar.  Crease the tape into the corner with a toothpick and trip off the excess.
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192127167.jpg?raw=true)
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192234882.jpg?raw=true)
+![](./Image/PXL_20230326_192127167.jpg?raw=true)
+![](./Image/PXL_20230326_192234882.jpg?raw=true)
 
 * Peel back sections of the protective COB strip backing and incrementally attach the COB strip, centering it between the Mylar strips. The COB strip should be positioned so it starts exactly next to the raised bar on the print.  The LEDBar is ~2mm longer than the strip, so when the COB is installed, the un-tinned end of the COB strip should not hit the far end of the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
 * Re-install the female JST connector and LEDRetainer.  Solder the JST connector to the COB strip. Connect to 24V supply and test COB.
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_052607121a.jpg?raw=true)
+![](./Image/PXL_20230327_052607121a.jpg?raw=true)
 
 ### Junction Boxes ###
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
@@ -140,17 +140,17 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * Cut the wires of two male JST connectors to 112mm and strip 8mm of insulation off each end. 
 * Remove 8mm of insulation from the ends of the PTFE wires.
 * Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires in a second crimp connector.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_170353732.jpg?raw=true)
+![](./Image/PXL_20230324_170353732.jpg?raw=true)
 
 * Insert crimp into junction box and route red wires as shown below
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_173040693.jpg?raw=true)
+![](./Image/PXL_20230324_173040693.jpg?raw=true)
 
 * Insert crimp into junction box and route black wires as shown below
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_173913668a.jpg?raw=true)
+![](./Image/PXL_20230324_173913668a.jpg?raw=true)
 
 * Install large and small snap in covers.  With junction box is a vise, place a piece of tape on the far end of the red/black wires and insert into drill and create a twisted pair.  To help keep wires from untwisting, pass the twisted pair around a round object like a pencil along the length of the wires.  This helps wires take a new set.
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_175535253.jpg?raw=true)
+![](./Image/PXL_20230324_175535253.jpg?raw=true)
 
 
 
@@ -158,10 +158,10 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 * Snap a junction box into the top frame.
 * The slot covers are split into two sections to ease installation.  Lower the Gantry and install the top slot cover.
 * Starting at one end, gently push the slot cover into place being careful not to pinch the wires.  Applying a slight tension to the wires keeps them inside the slot cover.  Once the slot cover is fully pressed into place, the slot cover will side in the 2020 channel with minimimal effort.  The wires should free loose when jiggled.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_053830500.jpg?raw=true)
+![](./Image/PXL_20230327_053830500.jpg?raw=true)
 
 * Raise the gantry. Slide the top slot cover upwards as needed and install the lower slot cover.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_055426979.jpg?raw=true)
+![](./Image/PXL_20230327_055426979.jpg?raw=true)
 
 
 * Bend TPU Z cover open and slide Z belts into slots.  Press far side into 2020 channel.
@@ -173,24 +173,24 @@ The junction boxes snap into the upper rails at opposite corners of the printer.
 
 * Position the twisted pair so it is clear of the remaining TPU tab and gently press the it into the 2020.  Use a small screw driver to to guide the wires and keep them from pinching. between the tab and the 2020.
 * An allen wrench provides a convenient lever for removing the TPU tabs from the 2020.  The TPU can also be removed by wedging a small screw driver between the 2020 and the TPU.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_055824980.jpg?raw=true)
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060104321.jpg?raw=true)
+![](./Image/PXL_20230327_055824980.jpg?raw=true)
+![](./Image/PXL_20230327_060104321.jpg?raw=true)
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_060431409.jpg?raw=true)
+![](./Image/PXL_20230327_060431409.jpg?raw=true)
 
 
 * Snap the Z Belt Cover Retainer(s) in place to hold the Acrylic deck panel against each Z belt cover.
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230328_041948365.jpg?raw=true)
+![](./Image/PXL_20230328_041948365.jpg?raw=true)
 
 
 * Snap diffusers and 45 degree mounting clips on the side LEDBar's to test fit.  The mounting clip ends easily unsnap by pressing them over the lip of the LEDBar.  
 
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_151505688.jpg?raw=true)
+![](./Image/PXL_20230327_151505688.jpg?raw=true)
 
 * Plug the JST connector into the LEDBar.  For initial installation of the LEDClip15, they can be inserted into the 2020 one by one and slid into position, or the entire LEDBar can be snapped in as a unit.  Not necessary, but the diffusers can be locked into place so it doesn't slide with a drop of CA.
 
 * Installed LEDBar
-![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230328_043655822.jpg?raw=true)
+![](./Image/PXL_20230328_043655822.jpg?raw=true)
 
 ## TO DO ##
 - update pics
