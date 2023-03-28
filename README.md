@@ -23,11 +23,11 @@ The design was prototyped on a Voron 350, but STL and STEP files are included fo
 | Qty        | Item           | Comment |
 |:------------- |:------------- |:----- |
 | 2m           | 24V COB strip; 50mm segments; adhesive backed | https://www.amazon.com/gp/product/B0B9SFMZ1L  |
-| 1 roll  | Aluminumized Mylar Tape 1/2" (12.7mm) |  https://www.amazon.com/gp/product/B07TYKFS8K  |
+| 1 roll  | Aluminized Mylar Tape 1/2" (12.7mm) |  https://www.amazon.com/gp/product/B07TYKFS8K  |
 | 10ft/3m      | Red 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
 | 10ft/3m      | Black 26awg PTFE stranded wire | less than $0.15/foot  ebay/Amazon/AliExpress |
 | 4 | JST 2.0 4-Pin Male Connector plug with Wire + Female Connector plug(have not cable) |   https://www.amazon.com/gp/product/B01DUC1S7S |
-| 2 |  gray 20 awg crip terminals      **_Ferrule Crimping Tool Kit, Preciva AWG23-7 with 1200PCS Wire Terminals Crimping Connectors Wire End Ferrules_**  | https://www.amazon.com/gp/product/B073TZ5BBG |
+| 2 |  gray 20 awg crimp terminals      **_Ferrule Crimping Tool Kit, Preciva AWG23-7 with 1200PCS Wire Terminals Crimping Connectors Wire End Ferrules_**  | https://www.amazon.com/gp/product/B073TZ5BBG |
 | - | solder, rosin flux | |
 
 
@@ -42,7 +42,7 @@ Measure the width of the 5mm arms at the two points indicated and verify they ar
 
 The width of the 5mm section of the test print is primarily influenced by the slicer's filament extrusion multiplier.  To dial it in, do two test prints with different extrusion multipliers and linearly interpolate between the two to determine the correct setting.  
 
-The 100mm length is primarliy influenced by the filament shrinkage factor.  Again, do two prints and linearly interpolate.
+The 100mm length is primarily influenced by the filament shrinkage factor.  Again, do two prints and linearly interpolate.
 
 There is some interaction between the two settings so it may require some iteration.
 
@@ -50,11 +50,11 @@ There is some interaction between the two settings so it may require some iterat
 
 If the two 5mm width measurements differ, and assuming Pressure Advance is dialed in, chances are the difference is caused by temperature flow variation.
 
-In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the tempeature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line don't use the 30-second Benchy settings - try decreasing the peak flow rate/print speed to minimize the effect. 
+In the same way Pressure Advance has to build up pressure at the beginning of a new extrusion to control print width, there is a secondary factor that the extrusion pressure builds slightly on long high flow rate lines because the extrusion temperature of the melt decreases. At high flow rates, the filament has less time to reach full temperature compared to printing slowly.  This effect is very pronounced with TPU but also observed with ABS.  The net effect is over extrusion once the flow rate decreases as in the case of a 90 degree turn.  Pressure advance does attempt to decrease pressure when decelerating but it does not take into account the pressure increase due the temperature drop and the increased flow as the temperature returns to a normal level with the flow decreases...  bottom line don't use the 30-second Benchy settings - try decreasing the peak flow rate/print speed to minimize the effect. 
 
 ### Elephant Foot
 
-After getting the flow rate dialed in, remove any remaining elephant foot by decresing the flow rate of the first layer or re-adjust the z-offset to increae the first layer height.
+After getting the flow rate dialed in, remove any remaining elephant foot by decreasing the flow rate of the first layer or re-adjust the z-offset to increase the first layer height.
 
 
 
@@ -69,7 +69,7 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 * Remove the center two pins of the female JST connector. They'll slip out of the PCB side of the connector with enough force. Tin the remaining two pins. 
 * Place the LEDBar into a small tool vise if available to help hold things in place.  This helps immensely.
 * Test fit the JST connector into the LEDBar. Test fit the LEDRetainer by placing it over the connector and pressing it into place (it will need to be removed so don't force it). **Dry fit** the COB strip under the connector and note the alignment of the tinned pads and the connector pins.  Check that that there is enough room for the un-tinned end of the COB strip to lay flat.
-* Remove the middle wires on the male JST connector using an exacto to pry up the retaining tabs on the JST plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
+* Remove the middle wires on the male JST connector using an Exacto to pry up the retaining tabs on the JST plastic housing.  Swap wires as needed to have Red on the "+" pin and Black on the "-" pin
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_04431653.jpg?raw=true)
 * Remove the LEDRetainer, and male & female connectors.
@@ -78,8 +78,8 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192127167.jpg?raw=true)
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230326_192234882.jpg?raw=true)
 
-* Peel back sections of the protective COB strip backing and inrcrementally attach the COB strip, cenering it between the Mylar strips. The COB strip should be positioned so it starts exactly next to the raised bar on the print.  The LEDBar is ~2mm longer than the strip, so when the COB is installed, the un-tinned end of the COB strip should not hit the far end of the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
-* Re-install the female JST connector and LEDRetainer.  Solder the JST connector to the COB stip. Connect to 24V supply and test COB.
+* Peel back sections of the protective COB strip backing and incrementally attach the COB strip, centering it between the Mylar strips. The COB strip should be positioned so it starts exactly next to the raised bar on the print.  The LEDBar is ~2mm longer than the strip, so when the COB is installed, the un-tinned end of the COB strip should not hit the far end of the LEDBar.  Once attached, run a blunt soft object like a popsicle stick or round edge of a credit card along the white COB strip edges to firmly seat it.
+* Re-install the female JST connector and LEDRetainer.  Solder the JST connector to the COB strip. Connect to 24V supply and test COB.
 
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230327_052607121a.jpg?raw=true)
 
@@ -87,10 +87,10 @@ After getting the flow rate dialed in, remove any remaining elephant foot by dec
 The junction boxes snap into the upper rails at opposite corners of the printer.  Each junction box services two LEDBar's and feeds wires down the 2020 vertical rail. The junction boxes can be removed by gently prying them from the frame until each end of the box pops out of the 2020. With a little care, breaking the snap tabs is not an issue.  
 
 * A pair of red/black wires runs from each junction box into the MCU board in electronics bay.  A "Y" splitter joins the front and back LED feeds for final connection to the MCU.  The required length of the wires will be dependent on the machine size, electronics bay wire routing path and location of the MCU. For a typical Voron 350, 1.7m and 1.1m wire lengths seem to work.  When figuring the required length, add in and extra 10% that will be taken up when the wires are twisted together.
-* Be sure the two center terminals and wires from each connector have been removed by prying up the retaining tabs on the connnector with an exacto to free the wires.  Re-insert wires as desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
+* Be sure the two center terminals and wires from each connector have been removed by prying up the retaining tabs on the connector with an Exacto to free the wires.  Re-insert wires as desired to have the Red wire match up with the "+24VDC" pin on the LEDBar and a Black lead match up with the "-".
 * Cut the wires of two male JST connectors to 112mm and strip 8mm of insulation off each end. 
-* Remove 8mm of insulaton from the ends of the PTFE wires.
-* Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires in a second crip connector.
+* Remove 8mm of insulation from the ends of the PTFE wires.
+* Twist the bare red wires from the two connectors and PTFE wire together and insert into a gray 20 awg crip terminal and crimp.  Twist and crimp the black wires in a second crimp connector.
 ![](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/Image/PXL_20230324_170353732.jpg?raw=true)
 
 * Insert crimp into junction box and route red wires as shown below
